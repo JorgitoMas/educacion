@@ -76,7 +76,46 @@
         <h3> <em>13/12/1986</em> </h3>
       <h2>Lugar de Nacimiento</h2>
         <h3> <em>Argentina</em> </h3>
-    <a href="../index.html">Pagina principal</a>
+    <a href="../index.html">Pagina principal</a> <a href="experiencia/experiencia.html">Experiencia</a>
+      <h2>Educacion</h2>
+      <table border="2">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2005</td>
+            <td>Universidad Nacional de Cuyo</td>
+            <td>Argentina</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>Escuelas Newton</td>
+            <td>Argentina</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td>Next U</td>
+            <td>Argentina</td>
+            <td>No</td>
+          </tr>
+        </tbody>
+        <form autocomplete="on" name="Agregar Estudios">
+          <fieldset>
+            <legend>Agregar Estudios</legend>
+            <label for="Año">Año</label>
+            <input > <select class="Año" name="Año">
+
+            </select>
+          </fieldset>
+        </form>
 
   </body>
 </html>
