@@ -107,15 +107,35 @@
             <td>No</td>
           </tr>
         </tbody>
-        <form autocomplete="on" name="Agregar Estudios">
+       </table>
+  <form autocomplete="on" name="Agregar Estudios">
           <fieldset>
             <legend>Agregar Estudios</legend>
             <label for="Año">Año</label>
-            <input > <select class="Año" name="Año">
-
-            </select>
+              <select class="numbber" name="Año" placeholder="Año" required id="Año">
+                <option>2005</option>
+                <option>2006</option>
+                <option>2007</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+              </select><br>
+            <label for="Institucion">Institución</label>
+              <input type="text" placeholder="Nombre de Institución"id="Institucion" required><br>
+            <label for="Lugar">Lugar</label>
+              <textarea name="Lugar" rows="1" cols="40" id="Lugar" placeholder="Lugar de Estudio" required></textarea><br>
+            <label for="Enviar"></label>
+              <input type="submit" name="Enviar">
           </fieldset>
         </form>
-
   </body>
+  <footer>jorgemasariel@hotmail.com - (0261)155166648 - Molinero Tejeda 1904 Las Heras Mendoza Argentina</footer>
 </html>
