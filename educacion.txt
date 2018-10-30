@@ -76,18 +76,15 @@
         <h3> <em>13/12/1986</em> </h3>
       <h2>Lugar de Nacimiento</h2>
         <h3> <em>Argentina</em> </h3>
-    <a href="../index.html">Pagina principal</a> <a href="experiencia/experiencia.html">Experiencia</a>
-      <h2>Educacion</h2>
-      <table border="2">
-        <thead>
+    <a href="../index.html">Pagina principal</a> <a href="../experiencia/experiencia.html">Experiencia</a>
+      <h2>Educación</h2>
+      <table border="1">
           <tr>
             <th>Año</th>
             <th>Institución</th>
             <th>Lugar</th>
             <th>¿Culminó?</th>
           </tr>
-        </thead>
-        <tbody>
           <tr>
             <td>2005</td>
             <td>Universidad Nacional de Cuyo</td>
@@ -106,12 +103,12 @@
             <td>Argentina</td>
             <td>No</td>
           </tr>
-        </tbody>
-       </table>
-  <form autocomplete="on" name="Agregar Estudios">
-          <fieldset>
-            <legend>Agregar Estudios</legend>
-            <label for="Año">Año</label>
+        </table>
+        <form autocomplete="on" name="Agregar Estudios">
+            <legend>
+              <h3>Agregar Estudios</h3>
+            </legend>
+            <label for="Año"> <strong>Año</strong> </label>
               <select class="numbber" name="Año" placeholder="Año" required id="Año">
                 <option>2005</option>
                 <option>2006</option>
@@ -128,13 +125,15 @@
                 <option>2017</option>
                 <option>2018</option>
               </select><br>
-            <label for="Institucion">Institución</label>
+            <label for="Institucion"> <strong>Institución</strong> </label>
               <input type="text" placeholder="Nombre de Institución"id="Institucion" required><br>
-            <label for="Lugar">Lugar</label>
-              <textarea name="Lugar" rows="1" cols="40" id="Lugar" placeholder="Lugar de Estudio" required></textarea><br>
+            <label for="Lugar"><strong>Lugar</strong></label>
+              <textarea name="Lugar"  rows="2" cols="40" id="Lugar" placeholder="Lugar de Estudio" required></textarea><br>
+            <label for="Culmino"><strong>¿Culminó?</strong></label>
+              <input type="radio" name="si o no" value="Si">Si
+              <input type="radio" name="si o no" value="No">No<br><br>
             <label for="Enviar"></label>
               <input type="submit" name="Enviar">
-          </fieldset>
         </form>
   </body>
   <footer>jorgemasariel@hotmail.com - (0261)155166648 - Molinero Tejeda 1904 Las Heras Mendoza Argentina</footer>
