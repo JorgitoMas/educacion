@@ -2,7 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Educacion</title>
+    <meta name="wiewport" content="width=device-width user-escalable=no">
+    <meta name="autor" content="Jorge Mas">
+    <meta name="description" content="Educación">
+    <title>Educación</title>
   </head>
   <body>
     <svg
